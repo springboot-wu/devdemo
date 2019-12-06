@@ -23,7 +23,8 @@ public class MessageController {
 
     @GetMapping("/getMessage")
     public ResultUtil<List<MessageBean01>>  getMessage(){
-   BigDecimal big  =new BigDecimal("1");
+   BigDecimal big  =new BigDecimal("+1");
+
         System.out.println(big);
         car  c= new  car();
         System.out.println(c.getNum()+"");
