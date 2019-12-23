@@ -3,7 +3,7 @@ package com.example.devdemo.bean;
 import java.math.BigDecimal;
 
 public class car {
-
+  // init
     private String  name;
  private Integer num;
  private BigDecimal a;
