@@ -23,4 +23,13 @@ public class car {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "car{" +
+                "name='" + name + '\'' +
+                ", num=" + num +
+                ", a=" + a +
+                '}';
+    }
 }
